@@ -1,0 +1,23 @@
+{
+  "name": "prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001bhtml)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikrieg/programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikrieg/programming/issues"
+  },
+  "homepage": "https://github.com/ikrieg/programming#readme",
+  "dependencies": {
+    "shower-core": "^2.1.0",
+    "shower-ribbon": "^2.1.0"
+  }
+}
