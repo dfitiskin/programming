@@ -1,0 +1,350 @@
+<svg id="mermaid-1525982380851" width="100%" xmlns="http://www.w3.org/2000/svg" style="max-width: 2134px;" viewBox="0 0 2134 924"><style>
+
+
+#mermaid-1525982380851 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1525982380851 .node rect,
+#mermaid-1525982380851 .node circle,
+#mermaid-1525982380851 .node ellipse,
+#mermaid-1525982380851 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1525982380851 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1525982380851 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1525982380851 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1525982380851 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1525982380851 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1525982380851 .cluster text {
+  fill: #333; }
+
+#mermaid-1525982380851 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1525982380851 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1525982380851 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1525982380851 .actor-line {
+  stroke: grey; }
+
+#mermaid-1525982380851 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #333; }
+
+#mermaid-1525982380851 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1525982380851 #arrowhead {
+  fill: #333; }
+
+#mermaid-1525982380851 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1525982380851 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1525982380851 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1525982380851 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1525982380851 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1525982380851 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #CCCCFF; }
+
+#mermaid-1525982380851 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1525982380851 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+
+#mermaid-1525982380851 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1525982380851 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1525982380851 .section2 {
+  fill: #fff400; }
+
+#mermaid-1525982380851 .section1,
+#mermaid-1525982380851 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1525982380851 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1525982380851 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1525982380851 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1525982380851 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1525982380851 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1525982380851 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1525982380851 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1525982380851 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1525982380851 .task {
+  stroke-width: 2; }
+
+#mermaid-1525982380851 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1525982380851 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1525982380851 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1525982380851 .taskText0,
+#mermaid-1525982380851 .taskText1,
+#mermaid-1525982380851 .taskText2,
+#mermaid-1525982380851 .taskText3 {
+  fill: white; }
+
+#mermaid-1525982380851 .task0,
+#mermaid-1525982380851 .task1,
+#mermaid-1525982380851 .task2,
+#mermaid-1525982380851 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1525982380851 .taskTextOutside0,
+#mermaid-1525982380851 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1525982380851 .taskTextOutside1,
+#mermaid-1525982380851 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1525982380851 .active0,
+#mermaid-1525982380851 .active1,
+#mermaid-1525982380851 .active2,
+#mermaid-1525982380851 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1525982380851 .activeText0,
+#mermaid-1525982380851 .activeText1,
+#mermaid-1525982380851 .activeText2,
+#mermaid-1525982380851 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1525982380851 .done0,
+#mermaid-1525982380851 .done1,
+#mermaid-1525982380851 .done2,
+#mermaid-1525982380851 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1525982380851 .doneText0,
+#mermaid-1525982380851 .doneText1,
+#mermaid-1525982380851 .doneText2,
+#mermaid-1525982380851 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1525982380851 .crit0,
+#mermaid-1525982380851 .crit1,
+#mermaid-1525982380851 .crit2,
+#mermaid-1525982380851 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1525982380851 .activeCrit0,
+#mermaid-1525982380851 .activeCrit1,
+#mermaid-1525982380851 .activeCrit2,
+#mermaid-1525982380851 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1525982380851 .doneCrit0,
+#mermaid-1525982380851 .doneCrit1,
+#mermaid-1525982380851 .doneCrit2,
+#mermaid-1525982380851 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1525982380851 .doneCritText0,
+#mermaid-1525982380851 .doneCritText1,
+#mermaid-1525982380851 .doneCritText2,
+#mermaid-1525982380851 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1525982380851 .activeCritText0,
+#mermaid-1525982380851 .activeCritText1,
+#mermaid-1525982380851 .activeCritText2,
+#mermaid-1525982380851 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1525982380851 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1525982380851 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1525982380851 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1525982380851 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1525982380851 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1525982380851 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1525982380851 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1525982380851 .commit-id,
+#mermaid-1525982380851 .commit-msg,
+#mermaid-1525982380851 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1525982380851 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g transform="translate(-12, -12)"><g class="output"><g class="clusters"><g class="cluster" id="subGraph4" style="opacity: 1;" transform="translate(1893.75,837)"><rect width="231" height="182" x="-115.5" y="-91"></rect><g class="label"><g transform="translate(0,0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"></div></foreignObject></g></g><text x="0" y="-77" fill="black" stroke="none" id="mermaid-1525982380851Text" style="text-anchor: middle;">УМО</text></g><g class="cluster" id="subGraph3" style="opacity: 1;" transform="translate(1460.5,561)"><rect width="214" height="228" x="-107" y="-114"></rect><g class="label"><g transform="translate(0,0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"></div></foreignObject></g></g><text x="0" y="-100" fill="black" stroke="none" id="mermaid-1525982380851Text" style="text-anchor: middle;">Отдел аналитики</text></g><g class="cluster" id="subGraph2" style="opacity: 1;" transform="translate(1226,561)"><rect width="215" height="228" x="-107.5" y="-114"></rect><g class="label"><g transform="translate(0,0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"></div></foreignObject></g></g><text x="0" y="-100" fill="black" stroke="none" id="mermaid-1525982380851Text" style="text-anchor: middle;">Отдел маркетинга</text></g><g class="cluster" id="subGraph1" style="opacity: 1;" transform="translate(883,561)"><rect width="431" height="228" x="-215.5" y="-114"></rect><g class="label"><g transform="translate(0,0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"></div></foreignObject></g></g><text x="0" y="-100" fill="black" stroke="none" id="mermaid-1525982380851Text" style="text-anchor: middle;">Отдел разработки</text></g><g class="cluster" id="subGraph0" style="opacity: 1;" transform="translate(135,756)"><rect width="230" height="344" x="-115" y="-172"></rect><g class="label"><g transform="translate(0,0)"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"></div></foreignObject></g></g><text x="0" y="-158" fill="black" stroke="none" id="mermaid-1525982380851Text" style="text-anchor: middle;">Редакция</text></g></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M1110.75,61L1110.75,96.5L1110.75,132" marker-end="url(#arrowhead212)" style="fill:none"></path><defs><marker id="arrowhead212" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1070.75,154.80891214716144L322.5,198L322.5,223" marker-end="url(#arrowhead213)" style="fill:none"></path><defs><marker id="arrowhead213" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M253.86160714285714,264L135,299.5L135,335" marker-end="url(#arrowhead214)" style="fill:none"></path><defs><marker id="arrowhead214" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M135,376L135,411.5L135,447L135,472" marker-end="url(#arrowhead215)" style="fill:none"></path><defs><marker id="arrowhead215" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M135,513L135,548.5L135,584L135,609" marker-end="url(#arrowhead216)" style="fill:none"></path><defs><marker id="arrowhead216" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M359.1986607142857,264L422.75,299.5L422.75,335" marker-end="url(#arrowhead217)" style="fill:none"></path><defs><marker id="arrowhead217" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M390.81026785714283,376L335.5,411.5L335.5,447L335.5,472" marker-end="url(#arrowhead218)" style="fill:none"></path><defs><marker id="arrowhead218" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M469.3325892857143,376L550,411.5L550,447L550,472" marker-end="url(#arrowhead219)" style="fill:none"></path><defs><marker id="arrowhead219" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M550,513L550,548.5L550,584L550,609" marker-end="url(#arrowhead220)" style="fill:none"></path><defs><marker id="arrowhead220" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M550,650L550,675L550,710.5L550,746L550,771" marker-end="url(#arrowhead221)" style="fill:none"></path><defs><marker id="arrowhead221" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1110.75,173L1110.75,198L1110.75,223" marker-end="url(#arrowhead222)" style="fill:none"></path><defs><marker id="arrowhead222" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1077.25,249.2590176515733L785,299.5L785,335" marker-end="url(#arrowhead223)" style="fill:none"></path><defs><marker id="arrowhead223" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1081.0982142857142,264L1029.75,299.5L1029.75,335" marker-end="url(#arrowhead224)" style="fill:none"></path><defs><marker id="arrowhead224" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1144.25,259.7776572668113L1226,299.5L1226,335" marker-end="url(#arrowhead225)" style="fill:none"></path><defs><marker id="arrowhead225" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1144.25,248.8638313080772L1460.5,299.5L1460.5,335" marker-end="url(#arrowhead226)" style="fill:none"></path><defs><marker id="arrowhead226" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M785,376L785,411.5L785,447L834.25,474.08006042296074" marker-end="url(#arrowhead227)" style="fill:none"></path><defs><marker id="arrowhead227" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1226,376L1226,411.5L1226,447L1226,472" marker-end="url(#arrowhead228)" style="fill:none"></path><defs><marker id="arrowhead228" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1029.75,376L1029.75,411.5L1029.75,447L901.25,483.09104938271605" marker-end="url(#arrowhead229)" style="fill:none"></path><defs><marker id="arrowhead229" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1460.5,376L1460.5,411.5L1460.5,447L1460.5,472" marker-end="url(#arrowhead230)" style="fill:none"></path><defs><marker id="arrowhead230" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1150.75,154.97534852091127L1846,198L1846,223" marker-end="url(#arrowhead231)" style="fill:none"></path><defs><marker id="arrowhead231" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1772.6026785714287,264L1645.5,299.5L1645.5,335" marker-end="url(#arrowhead232)" style="fill:none"></path><defs><marker id="arrowhead232" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1645.5,376L1645.5,411.5L1645.5,447L1645.5,472" marker-end="url(#arrowhead233)" style="fill:none"></path><defs><marker id="arrowhead233" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1645.5,513L1645.5,548.5L1645.5,584L1645.5,609" marker-end="url(#arrowhead234)" style="fill:none"></path><defs><marker id="arrowhead234" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1680,507.0811320754717L1778,548.5L1778,584L1841.598901098901,609" marker-end="url(#arrowhead235)" style="fill:none"></path><defs><marker id="arrowhead235" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1861.0089285714287,264L1887,299.5L1887,335" marker-end="url(#arrowhead236)" style="fill:none"></path><defs><marker id="arrowhead236" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1887,376L1887,411.5L1887,447L1887,472" marker-end="url(#arrowhead237)" style="fill:none"></path><defs><marker id="arrowhead237" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1887,513L1887,548.5L1887,584L1890.7087912087911,609" marker-end="url(#arrowhead238)" style="fill:none"></path><defs><marker id="arrowhead238" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1921.5,263.8269230769231L2054,299.5L2054,355.5L2054,411.5L2054,447L2054,472" marker-end="url(#arrowhead239)" style="fill:none"></path><defs><marker id="arrowhead239" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M2054,513L2054,548.5L2054,584L1965.9505494505495,609" marker-end="url(#arrowhead240)" style="fill:none"></path><defs><marker id="arrowhead240" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1893.75,650L1893.75,675L1893.75,710.5L1893.75,746L1893.75,771" marker-end="url(#arrowhead241)" style="fill:none"></path><defs><marker id="arrowhead241" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M135,650L135,675L135,710.5L135,746L135,771" marker-end="url(#arrowhead242)" style="fill:none"></path><defs><marker id="arrowhead242" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M135,812L135,837L135,862" marker-end="url(#arrowhead243)" style="fill:none"></path><defs><marker id="arrowhead243" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M837.4575892857143,513L785,548.5L785,584L785,609" marker-end="url(#arrowhead244)" style="fill:none"></path><defs><marker id="arrowhead244" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M901.25,507.78309572301424L990.5,548.5L990.5,584L990.5,609" marker-end="url(#arrowhead245)" style="fill:none"></path><defs><marker id="arrowhead245" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1226,513L1226,548.5L1226,584L1226,609" marker-end="url(#arrowhead246)" style="fill:none"></path><defs><marker id="arrowhead246" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1460.5,513L1460.5,548.5L1460.5,584L1460.5,609" marker-end="url(#arrowhead247)" style="fill:none"></path><defs><marker id="arrowhead247" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1893.75,812L1893.75,837L1893.75,862" marker-end="url(#arrowhead248)" style="fill:none"></path><defs><marker id="arrowhead248" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" style="opacity: 1;" transform="translate(1110.75,96.5)"><g transform="translate(-19,-10.5)" class="label"><foreignObject width="38" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">отбор</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(422.75,299.5)"><g transform="translate(-30.5,-10.5)" class="label"><foreignObject width="61" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">обучение</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(335.5,411.5)"><g transform="translate(-61,-10.5)" class="label"><foreignObject width="122" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">несколько уровней</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(550,548.5)"><g transform="translate(-30.5,-10.5)" class="label"><foreignObject width="61" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">обучение</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(550,710.5)"><g transform="translate(-61,-10.5)" class="label"><foreignObject width="122" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">несколько уровней</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform="translate(1893.75,710.5)"><g transform="translate(-61,-10.5)" class="label"><foreignObject width="122" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">несколько уровней</span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" style="opacity: 1;" transform=""><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" style="opacity: 1;" id="m1" transform="translate(1893.75,791.5)"><rect rx="0" ry="0" x="-80.5" y="-20.5" width="161" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-70.5,-10.5)"><foreignObject width="141" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник методиста</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Методист" transform="translate(1893.75,882.5)"><rect rx="0" ry="0" x="-41" y="-20.5" width="82" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-31,-10.5)"><foreignObject width="62" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Методист</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="a0" transform="translate(1460.5,492.5)"><rect rx="0" ry="0" x="-33.5" y="-20.5" width="67" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-23.5,-10.5)"><foreignObject width="47" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Стажер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="a1" transform="translate(1460.5,629.5)"><rect rx="0" ry="0" x="-72" y="-20.5" width="144" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62,-10.5)"><foreignObject width="124" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Младший аналитик</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="mk0" transform="translate(1226,492.5)"><rect rx="0" ry="0" x="-33.5" y="-20.5" width="67" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-23.5,-10.5)"><foreignObject width="47" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Стажер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="mk1" transform="translate(1226,629.5)"><rect rx="0" ry="0" x="-72.5" y="-20.5" width="145" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62.5,-10.5)"><foreignObject width="125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Маркетолог канала</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="d0" transform="translate(867.75,492.5)"><rect rx="0" ry="0" x="-33.5" y="-20.5" width="67" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-23.5,-10.5)"><foreignObject width="47" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Стажер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="d1" transform="translate(785,629.5)"><rect rx="0" ry="0" x="-82.5" y="-20.5" width="165" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-72.5,-10.5)"><foreignObject width="145" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Младший разработчик</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="dsg1" transform="translate(990.5,629.5)"><rect rx="0" ry="0" x="-73" y="-20.5" width="146" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-63,-10.5)"><foreignObject width="126" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Младший дизайнер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="ed0" transform="translate(135,629.5)"><rect rx="0" ry="0" x="-80" y="-20.5" width="160" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-70,-10.5)"><foreignObject width="140" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник редактора</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="ed1" transform="translate(135,791.5)"><rect rx="0" ry="0" x="-40" y="-20.5" width="80" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30,-10.5)"><foreignObject width="60" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Редактор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="ed2" transform="translate(135,882.5)"><rect rx="0" ry="0" x="-69.5" y="-20.5" width="139" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-59.5,-10.5)"><foreignObject width="119" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Главный редактор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Студент" transform="translate(1110.75,40.5)"><rect rx="0" ry="0" x="-35.5" y="-20.5" width="71" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-25.5,-10.5)"><foreignObject width="51" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Студент</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Аспирант" transform="translate(1110.75,152.5)"><rect rx="0" ry="0" x="-40" y="-20.5" width="80" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30,-10.5)"><foreignObject width="60" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Аспирант</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="c0" transform="translate(322.5,243.5)"><rect rx="0" ry="0" x="-92" y="-20.5" width="184" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-82,-10.5)"><foreignObject width="164" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник координатора</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="cnt" transform="translate(135,355.5)"><rect rx="0" ry="0" x="-72.5" y="-20.5" width="145" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62.5,-10.5)"><foreignObject width="125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Контент менеджер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Автор" transform="translate(135,492.5)"><rect rx="0" ry="0" x="-28.5" y="-20.5" width="57" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-18.5,-10.5)"><foreignObject width="37" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Автор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="c1" transform="translate(422.75,355.5)"><rect rx="0" ry="0" x="-78" y="-20.5" width="156" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-68,-10.5)"><foreignObject width="136" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Координатор набора</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="c2" transform="translate(335.5,492.5)"><rect rx="0" ry="0" x="-82" y="-20.5" width="164" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-72,-10.5)"><foreignObject width="144" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Старший координатор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="p0" transform="translate(550,492.5)"><rect rx="0" ry="0" x="-82.5" y="-20.5" width="165" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-72.5,-10.5)"><foreignObject width="145" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник продюсера</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Продюсер" transform="translate(550,629.5)"><rect rx="0" ry="0" x="-43" y="-20.5" width="86" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-33,-10.5)"><foreignObject width="66" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Продюсер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="l" transform="translate(550,791.5)"><rect rx="0" ry="0" x="-67" y="-20.5" width="134" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-57,-10.5)"><foreignObject width="114" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Руководитель БЮ</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Интерн" transform="translate(1110.75,243.5)"><rect rx="0" ry="0" x="-33.5" y="-20.5" width="67" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-23.5,-10.5)"><foreignObject width="47" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Интерн</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Интерн-программист" transform="translate(785,355.5)"><rect rx="0" ry="0" x="-79" y="-20.5" width="158" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-69,-10.5)"><foreignObject width="138" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Интерн-программист</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Интерн-дизайнер" transform="translate(1029.75,355.5)"><rect rx="0" ry="0" x="-66.5" y="-20.5" width="133" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-56.5,-10.5)"><foreignObject width="113" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Интерн-дизайнер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Интерн-маркетолог" transform="translate(1226,355.5)"><rect rx="0" ry="0" x="-74" y="-20.5" width="148" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-64,-10.5)"><foreignObject width="128" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Интерн-маркетолог</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Интерн-аналитик" transform="translate(1460.5,355.5)"><rect rx="0" ry="0" x="-65.5" y="-20.5" width="131" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-55.5,-10.5)"><foreignObject width="111" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Интерн-аналитик</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="x" transform="translate(1846,243.5)"><rect rx="0" ry="0" x="-75.5" y="-20.5" width="151" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-65.5,-10.5)"><foreignObject width="131" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник эксперта</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Инструктор" transform="translate(1645.5,355.5)"><rect rx="0" ry="0" x="-47" y="-20.5" width="94" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-37,-10.5)"><foreignObject width="74" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Инструктор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Тренер" transform="translate(1645.5,492.5)"><rect rx="0" ry="0" x="-34.5" y="-20.5" width="69" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-24.5,-10.5)"><foreignObject width="49" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Тренер</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Наставник" transform="translate(1645.5,629.5)"><rect rx="0" ry="0" x="-43" y="-20.5" width="86" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-33,-10.5)"><foreignObject width="66" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Наставник</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="m0" transform="translate(1893.75,629.5)"><rect rx="0" ry="0" x="-138.5" y="-20.5" width="277" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-128.5,-10.5)"><foreignObject width="257" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Разработчик методических материалов</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="xl" transform="translate(1887,355.5)"><rect rx="0" ry="0" x="-72.5" y="-20.5" width="145" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62.5,-10.5)"><foreignObject width="125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Помощник лектора</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="Лектор" transform="translate(1887,492.5)"><rect rx="0" ry="0" x="-33" y="-20.5" width="66" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-23,-10.5)"><foreignObject width="46" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Лектор</div></foreignObject></g></g></g><g class="node" style="opacity: 1;" id="t" transform="translate(2054,492.5)"><rect rx="0" ry="0" x="-84" y="-20.5" width="168" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-74,-10.5)"><foreignObject width="148" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Технический писатель</div></foreignObject></g></g></g></g></g></g></svg>

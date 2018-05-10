@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-4x3.css">
+  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
   <link rel="stylesheet" href="css/prism.css">
   <link rel="stylesheet" href="css/prism-fix.css">
   <link rel="stylesheet" href="css/netology.css">
   <link rel="stylesheet" href="css/fake-browser.css">
+  <link rel="stylesheet" href="node_modules/mermaid/">
   <link rel="shortcut icon" href="i/favicon.ico" type="image/x-icon">
 </head>
 <body class="shower list">
@@ -22,29 +23,53 @@
     <h2>Направление программирования</h2>
   </section>
 
-  <section class="slide author" id="author">
-    <img src="pic/dfitiskin.png" alt="">
-    <h1>Дмитрий Фитискин</h1>
-    <p>Руководитель направления</p>
-  </section>
-
-  <section class="slide author" id="author">
-    <img src="pic/azelenskaya.png" alt="">
-    <h1>Анастасия Зеленская</h1>
-    <p>Продюсер</p>
-  </section>
+  <section class="slide">
+    <div style="width: 100%; position: absolute; top: 20%; left: 10%;">
+      <figure style="width: 30%;">
+        <img src="pic/dfitiskin.png" alt="" >
+        <figcaption><b>Дмитрий Фитискин</b><br>Руководитель направления</figcaption>  
+      </figure>
+    </div>
+    <div style="width: 100%; position: absolute; top: 20%; left: 60%;">
+      <figure style="width: 30%;">
+        <img src="pic/azelenskaya.png" alt="" >
+        <figcaption><b>Анастасия Зеленская</b><br>Продюсер</figcaption>  
+      </figure>
+    </div>
+  </section> 
 
   <section class="slide">
     <h2>Рынки</h2>
     <ul>
-      <li>Услуги обучения новым актуальным, высокооплачиваемым профессиям, связанным с программированием.</li>
-      <li>Услуги предоставления квалифицированных кадров (программистов) мелким и средним IT-компаниям.</li>
-      <li>Услуги повышения квалификации сотрудников (программистов) IT-компаний.</li>
+      <li>Услуги обучения новым актуальным, высокооплачиваемым профессиям, связанным с программированием</li>
+      <li>Услуги предоставления квалифицированных кадров (программистов) мелким и средним IT-компаниям</li>
+      <li>Услуги повышения квалификации сотрудников (программистов) IT-компаний</li>
     </ul>
   </section>
 
   <section class="slide">
+    <h2>Спрос на разработчиков</h2>
+    <p class="left"><b>Вакансий в месяц:</b><br>
+    Всего — 29 450<br>
+    Москва — 11 153<br>
+    Санкт-Петербург — 4 402<br>
+    Регионы — 13 895</p>
+    <figure class="place right" style="top:auto">
+      <img src="i/vacancies.png" alt="Вакансии">
+    </figure>
+  </section>
+
+  <section class="slide">
     <h2>Бенефиты программирования</h2>
+    <ul>
+      <li>Программирование позволяет развивать ценные навыки для различных специальностей</li>
+      <li>Страх оказаться невосстребованным в результате всеобщей компьютеризации</li>
+      <li>Высооплачиваемая работа с достачно низким порогом вхождения</li>
+      <li>Наиболее широкие возможности выбрать интересующую сферу и направление</li>
+      <li>Возможность работать из любой точки мира</li>
+      <li>Возможность работать на зарубежные компании</li>
+      <li>Возможность работать по гибкому графику</li>
+    </ul>
   </section>
 
   <section class="slide">
@@ -54,7 +79,7 @@
       <li>Невосстребованные/низкооплачиваемые профессии</li>
       <li>Новички в программировании</li>
       <li>Смежные с IT профессии (дизайнеры, менеджеры проектов, контент-менеджеры и пр.)</li>
-      <li>Стартаперы/Предприниматели</li>
+      <li>Стартаперы / Предприниматели</li>
     </ul>
   </section>
 
@@ -107,10 +132,16 @@
 
   <section class="slide">
     <h2>Карьерная карта</h2>
+    <figure>
+      <img src="i/career-cart.png" alt="Карьераная карта">
+    </figure>
   </section>
 
   <section class="slide">
     <h2>Текущая программная линейка (схема)</h2>
+    <figure>
+      <img src="i/programs.png" alt="Программная линейка">
+    </figure>
   </section>
 
   <section class="slide">
@@ -120,9 +151,9 @@
       <li>4 продукта (FS, FE, PD, FD)</li>
       <li>9 модулей (HTML, JS, HJ, RA, PHP, PY, ND, MQ, WM)</li>
       <li>1 спорный продукт с которым нужно что-то делать (ND)</li>
-      <p>3 млн 690 тыс — средний ежемесячный доход</p>
-      <p>611 тыс — средняя ежемесячная прибыль</p>
     </ul>
+    <p>3 690 000 — средний ежемесячный доход</p>
+    <p>611 000 — средняя ежемесячная прибыль</p>
   </section>
   
   <section class="slide">
@@ -132,6 +163,10 @@
       <li>6 продуктов (FS, FE, PD, FD, ROR, PDS)</li>
       <li>11 модулей (HTML, JS, HJ, RA, PHP, PY, ND, MQ, WM, DJ, RB, RB2)</li>
     </ul>
+    <p>5 300 000 — средний ежемесячный доход</p>
+    <p>690 000 — средняя ежемесячная прибыль, с учетом затрат на разработку новых программ</p>
+    
+
   </section>
 
   <section class="slide">
@@ -154,14 +189,23 @@
 
   <section class="slide">
     <h2>Команда сейчас</h2>
+    <figure>
+      <img src="i/team.png" alt="Команда сейчас">
+    </figure>
   </section>
 
   <section class="slide">
     <h2>Слайд с перестановками</h2>
+    <figure>
+      <img src="i/team2.png" alt="Команда потом">
+    </figure>
   </section>
 
   <section class="slide">
     <h2>Карьерная лестница БЮ</h2>
+    <figure>
+      <img src="i/career.svg" alt="Карьера">
+    </figure>
   </section>
     
   <section class="slide last">
